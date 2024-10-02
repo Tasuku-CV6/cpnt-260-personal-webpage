@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+    <title>Personal Webpage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Why you should visit Japan?</h1>
+      <img
+        width="800px"
+        height="500px"
+        src="images/Japan-2107x1406.jpg"
+        alt="Enterprise"
+      />
+    </header>
+    <main>
+      <p>
+        Japan is an island nation located in East Asia, consisting of four main
+        islands—Honshu, Hokkaido, Kyushu, and Shikoku—along with numerous
+        smaller ones. Known for its rich cultural heritage, Japan seamlessly
+        blends traditional practices with cutting-edge technology. The country
+        is famous for its historic temples, serene gardens, and vibrant cities
+        like Tokyo and Kyoto. Japanese cuisine, including sushi, ramen, and
+        tempura, is celebrated worldwide. Japan's natural beauty, from Mount
+        Fuji to its cherry blossoms, attracts many visitors. Additionally, it
+        has a robust economy, being a leader in technology and automotive
+        industries, while also facing unique challenges such as an aging
+        population and natural disasters.
+      </p>
+
+      <header>Reasons why I personally want to visit Japan:</header>
+      <ul>
+        <li>
+          <b>Rich Cultural Heritage:</b>
+          Explore ancient temples, shrines, and historic sites, including
+          Kyoto's stunning gardens and traditional tea houses.
+        </li>
+        <li>
+          <b>Culinary Delights:</b>
+          Experience Japan's world-renowned cuisine, from sushi and ramen to
+          street food like takoyaki and okonomiyaki.
+        </li>
+        <li>
+          <b>Stunning Nature:</b>
+          Enjoy breathtaking landscapes, including Mount Fuji, cherry blossoms
+          in spring, and the vibrant colors of autumn foliage.
+        </li>
+        <li>
+          <b>Unique Festivals:</b>
+          Participate in lively festivals, such as Hanami (cherry blossom
+          viewing) and Gion Matsuri in Kyoto, celebrating tradition and
+          community.
+        </li>
+        <li>
+          <b>Modern Marvels:</b>
+          Discover bustling cities like Tokyo, with its neon lights,
+          cutting-edge technology, and diverse shopping districts.
+        </li>
+        <li>
+          <b>Efficient Transportation:</b>
+          Take advantage of Japan's extensive and punctual public transportation
+          system, including the famous Shinkansen (bullet trains).
+        </li>
+        <li>
+          <b>Polite Society:</b>
+          Experience the warm hospitality and politeness of the Japanese people,
+          making your visit enjoyable and memorable.
+        </li>
+        <li>
+          <b>Art and Design:</b>
+          Appreciate traditional arts like calligraphy and pottery, as well as
+          contemporary art and design showcased in museums and galleries.
+        </li>
+      </ul>
+
+      <p>Here is a quote from Chat GPT about how being broke is alright:</p>
+
+      <blockquote cite="https://openai.com/chatgpt/">
+        "Being broke is just a chapter in your story, not the whole book.
+        Embrace it as a time for growth and creativity."
+      </blockquote>
+
+      <table>
+        <tr>
+          <th>Month</th>
+          <th>Total amount of Accommodation & Food per day</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$110</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$90</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>$130</td>
+        </tr>
+        <tr>
+          <td>April</td>
+          <td>$160</td>
+        </tr>
+        <tr>
+          <td>May</td>
+          <td>$130</td>
+        </tr>
+        <tr>
+          <td>June</td>
+          <td>$90</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>$110</td>
+        </tr>
+        <tr>
+          <td>August</td>
+          <td>$110</td>
+        </tr>
+        <tr>
+          <td>September</td>
+          <td>$90</td>
+        </tr>
+        <tr>
+          <td>October</td>
+          <td>$110</td>
+        </tr>
+        <tr>
+          <td>November</td>
+          <td>$110</td>
+        </tr>
+        <tr>
+          <td>December</td>
+          <td>$110</td>
+        </tr>
+      </table>
+
+      <h1>List of some helpful Toruist Website</h1>
+      <ul>
+        <li>
+          <a href="https://www.japan-guide.com/e/e623a.html"
+            >Japan Travel Guide</a
+          >
+        </li>
+        <li>
+          <a href="https://www.japan.travel/en/things-to-do/attraction/"
+            >Japan attraction</a
+          >
+        </li>
+
+        <li><a href="https://www.timeout.com/tokyo">Japan attraction</a></li>
+      </ul>
+
+      <h2>User Feedback Form</h2>
+      <form action="/submit-feedback" method="POST">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="experience">How was your experience?</label><br />
+        <select id="experience" name="experience" required>
+          <option value="">Select...</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+          <option value="poor">Poor</option></select
+        ><br /><br />
+
+        <label>What did you like? (check all that apply):</label><br />
+        <input
+          type="checkbox"
+          id="content"
+          name="like_content"
+          value="content"
+        />
+        <label for="content">Content</label><br />
+        <input type="checkbox" id="design" name="like_design" value="design" />
+        <label for="design">Design</label><br />
+        <input
+          type="checkbox"
+          id="support"
+          name="like_support"
+          value="support"
+        />
+        <label for="support">Support</label><br /><br />
+
+        <label for="comments">Additional Comments:</label><br />
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit Feedback" />
+      </form>
+    </main>
+  </body>
+</html>
