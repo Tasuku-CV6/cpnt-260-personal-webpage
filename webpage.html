@@ -210,47 +210,54 @@
         </ul>
       </section>
 
-      <h2>User Feedback Form</h2>
-      <form action="/submit-feedback" method="POST">
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" required /><br /><br />
+      <section>
+        <h2>User Feedback Form</h2>
+        <form action="/submit-feedback" method="POST">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
 
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
 
-        <label for="experience">How was your experience?</label><br />
-        <select id="experience" name="experience" required>
-          <option value="">Select...</option>
-          <option value="excellent">Excellent</option>
-          <option value="good">Good</option>
-          <option value="average">Average</option>
-          <option value="poor">Poor</option></select
-        ><br /><br />
+          <label for="experience">How was your experience?</label><br />
+          <select id="experience" name="experience" required>
+            <option value="">Select...</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option></select
+          ><br /><br />
 
-        <label>What did you like? (check all that apply):</label><br />
-        <input
-          type="checkbox"
-          id="content"
-          name="like_content"
-          value="content"
-        />
-        <label for="content">Content</label><br />
-        <input type="checkbox" id="design" name="like_design" value="design" />
-        <label for="design">Design</label><br />
-        <input
-          type="checkbox"
-          id="support"
-          name="like_support"
-          value="support"
-        />
-        <label for="support">Support</label><br /><br />
+          <label>What did you like? (check all that apply):</label><br />
+          <input
+            type="checkbox"
+            id="content"
+            name="like_content"
+            value="content"
+          />
+          <label for="content">Content</label><br />
+          <input
+            type="checkbox"
+            id="design"
+            name="like_design"
+            value="design"
+          />
+          <label for="design">Design</label><br />
+          <input
+            type="checkbox"
+            id="support"
+            name="like_support"
+            value="support"
+          />
+          <label for="support">Support</label><br /><br />
 
-        <label for="comments">Additional Comments:</label><br />
-        <textarea id="comments" name="comments" rows="4" cols="50"></textarea
-        ><br /><br />
+          <label for="comments">Additional Comments:</label><br />
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea
+          ><br /><br />
 
-        <input type="submit" value="Submit Feedback" />
-      </form>
+          <input type="submit" value="Submit Feedback" />
+        </form>
+      </section>
     </main>
   </body>
 </html>
